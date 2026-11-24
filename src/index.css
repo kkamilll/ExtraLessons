@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .highlight {
+    background: linear-gradient(transparent 58%, #f6d365 58%, #f6d365 90%, transparent 90%);
+    padding: 0 0.15em;
+  }
+  .grid-paper {
+    background-color: #fffdf9;
+    background-image: linear-gradient(#efe8da 1px, transparent 1px),
+      linear-gradient(90deg, #efe8da 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+}
